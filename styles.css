@@ -21,6 +21,11 @@ body {
   font-variant-numeric: lining-nums;
 }
 
+h1 {
+  font-family: "URW DIN Medium";
+  padding-bottom: 1rem;
+}
+
 .calc-body {
   background: #252422;
   height: 38rem;
