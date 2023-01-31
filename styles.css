@@ -92,6 +92,12 @@ button {
   body {
     margin: 1rem;
   }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
   .calc-body {
     height: 36rem;
     width: 22rem;
