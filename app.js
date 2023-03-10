@@ -1,4 +1,4 @@
-console.log("Calculator attempt");
+// console.log("Calculator attempt");
 
 let display = document.querySelector(".display");
 const calcBody = document.querySelector(".calc-body");
@@ -9,7 +9,6 @@ console.log(btns);
 console.log(calcBody);
 
 // functionality
-
 btns.forEach(function (item) {
   item.addEventListener("click", function (e) {
     // console.log("click");
@@ -84,7 +83,7 @@ btns.forEach(function (item) {
       }
     }
 
-    // store first value in calc body as dataset when operant pressed
+    // store first value in calc body as dataset when operand pressed
     if (operatorPressed) {
       let operatorType = e.target.dataset.id;
       calcBody.dataset.currentOperator = operatorType;
@@ -125,13 +124,11 @@ btns.forEach(function (item) {
 });
 
 // button press CSS effect
-
 function btnPress(btn) {
   btn.classList.add("is-pressed");
 }
 
 // calculate function
-
 function calculate(firstValue, operator, secondValue) {
   let result;
 
@@ -149,7 +146,6 @@ function calculate(firstValue, operator, secondValue) {
 }
 
 // function testing
-
 firstVal = 89;
 secondVal = 25;
 operandAdd = "add";
